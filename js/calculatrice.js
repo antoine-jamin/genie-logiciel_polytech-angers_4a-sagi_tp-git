@@ -11,7 +11,7 @@ function mult() {
     document.querySelector("#signe").value = "x";
     x = parseInt(document.querySelector("#x").value);
     y = parseInt(document.querySelector("#y").value);
-    document.querySelector("#z").value = x + y;
+    document.querySelector("#z").value = x * y;
 }
 
 // Affecter les fonctions de calcul aux clic sur les boutons.
