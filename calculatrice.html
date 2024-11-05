@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <style>
+        input {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Calculatrice</h1>
+    <form action="#">
+        <p>
+            <input type="text" name="x" id="x" size="6" value="0" />
+            <input type="text" name="signe" value="+" id="signe" size="6" disabled />
+            <input type="text" name="y" id="y" size="6" value="0" />
+            =
+            <input type="text" name="z" id="z" size="6" />
+            <input type="button" name="somme" id="somme" value="Somme" />
+            <input type="button" name="mult" id="mult" value="Multiplication" />
+        </p>
+    </form>
+    <script src="js/calculatrice.js"></script>
+</body>
+<footer>
+    <a href="index.html">Retour Home</a>
+</footer>
+
+</html>
